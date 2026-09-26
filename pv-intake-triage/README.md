@@ -42,8 +42,8 @@ streamlit run app/streamlit_app.py
 ```
 
 This page also runs, unmodified, as one tab of a small shared shell at `../unified_app/app.py`
-(sibling of this repo), which puts this PV pipeline and the separate DevGuard prototype
-(`../devguard`) behind one Streamlit process/URL for demo convenience -- see
+(sibling of this repo), which puts this PV pipeline and the separate Deviation Review prototype
+(`../deviation-review`) behind one Streamlit process/URL for demo convenience -- see
 `../unified_app/PROGRESS.md`. Nothing here changes because of that; this repo has no dependency
 on it and runs exactly the same standalone.
 

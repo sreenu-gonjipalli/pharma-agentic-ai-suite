@@ -55,7 +55,7 @@ Deterministic checks -> Guardrail hooks -> HITL gate -> Trace log
 ## 4. Layout
 
 ```
-devguard/
+deviation-review/
 ├── CLAUDE.md  PROGRESS.md  README.md  .mcp.json  .env.example
 ├── config/models.yaml            # OpenRouter routing
 ├── data/                         # synthetic CSV/PDF

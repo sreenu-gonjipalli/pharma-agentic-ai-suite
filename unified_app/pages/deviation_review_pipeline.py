@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Deviation Review -- Case Pipeline page (unified_app). Runs devguard's Supervisor live, shows
-the evidence bundle as readable tables (not raw JSON), and logs a human approval decision via
-devguard's own src/hitl.approve_case -- the only path to logs/approved/, same shape as the PV
-page's approval form (named approver, one of APPROVE/EDIT/REJECT, notes; never a bare yes/no).
+"""Deviation Review -- Case Pipeline page (unified_app). Runs deviation-review's Supervisor
+live, shows the evidence bundle as readable tables (not raw JSON), and logs a human approval
+decision via deviation-review's own src/hitl.approve_case -- the only path to logs/approved/,
+same shape as the PV page's approval form (named approver, one of APPROVE/EDIT/REJECT, notes;
+never a bare yes/no).
 
-DevGuard is a separate, independently-governed project (../devguard) -- this page only imports
-and calls its existing code, never forks or edits its own logic (per this folder's ground rules
-in PROGRESS.md).
+Deviation Review is a separate, independently-governed project (../deviation-review) -- this
+page only imports and calls its existing code, never forks or edits its own logic (per this
+folder's ground rules in PROGRESS.md).
 """
 import csv
 import glob
@@ -18,13 +19,13 @@ import streamlit as st
 
 PAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 UNIFIED_ROOT = os.path.dirname(PAGE_DIR)
-DEVGUARD_ROOT = os.path.normpath(os.path.join(UNIFIED_ROOT, "..", "devguard"))
-sys.path.insert(0, DEVGUARD_ROOT)
+DEVIATION_REVIEW_ROOT = os.path.normpath(os.path.join(UNIFIED_ROOT, "..", "deviation-review"))
+sys.path.insert(0, DEVIATION_REVIEW_ROOT)
 
 from src import supervisor, hitl, trace as trace_log  # noqa: E402
 
-CASES_DIR = os.path.join(DEVGUARD_ROOT, "logs", "cases")
-DEVIATIONS_CSV = os.path.join(DEVGUARD_ROOT, "data", "deviations.csv")
+CASES_DIR = os.path.join(DEVIATION_REVIEW_ROOT, "logs", "cases")
+DEVIATIONS_CSV = os.path.join(DEVIATION_REVIEW_ROOT, "data", "deviations.csv")
 
 st.title("Deviation Review -- Case Pipeline")
 st.caption(
@@ -61,7 +62,7 @@ with st.sidebar:
     else:
         st.error("OPENROUTER_API_KEY is not set -- prose steps (summary/rationale/draft) will fail.")
     st.caption(
-        "Known limitation (devguard/PROGRESS.md Phase 0): this account's OpenRouter workspace "
+        "Known limitation (deviation-review/PROGRESS.md Phase 0): this account's OpenRouter workspace "
         "guardrail policy blocks every route except `analysis_drafting` -- an account dashboard "
         "setting, not a code bug. Retrieval summary and classification rationale will show a "
         "captured error; CAPA/narrative drafting is the one step confirmed to run live."

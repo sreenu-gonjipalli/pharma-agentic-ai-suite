@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deviation Review -- Evaluation page. Calls devguard's existing eval/run_eval.py and
+"""Deviation Review -- Evaluation page. Calls deviation-review's existing eval/run_eval.py and
 eval/redteam.py functions live -- no metric logic duplicated here, only display.
 """
 import os
@@ -9,16 +9,16 @@ import streamlit as st
 
 PAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 UNIFIED_ROOT = os.path.dirname(PAGE_DIR)
-DEVGUARD_ROOT = os.path.normpath(os.path.join(UNIFIED_ROOT, "..", "devguard"))
-sys.path.insert(0, DEVGUARD_ROOT)
-sys.path.insert(0, os.path.join(DEVGUARD_ROOT, "src"))
-sys.path.insert(0, os.path.join(DEVGUARD_ROOT, "eval"))
+DEVIATION_REVIEW_ROOT = os.path.normpath(os.path.join(UNIFIED_ROOT, "..", "deviation-review"))
+sys.path.insert(0, DEVIATION_REVIEW_ROOT)
+sys.path.insert(0, os.path.join(DEVIATION_REVIEW_ROOT, "src"))
+sys.path.insert(0, os.path.join(DEVIATION_REVIEW_ROOT, "eval"))
 
 from eval import run_eval  # noqa: E402
 
 st.title("Deviation Review -- Evaluation")
 st.caption(
-    "Golden-set accuracy, live citation-rate, and redteam refusal-rate, per DevGuard's own "
+    "Golden-set accuracy, live citation-rate, and redteam refusal-rate, per Deviation Review's own "
     "PROGRESS.md Phase 10. All 28 real deviations in data/deviations.csv are used for the "
     "(free, deterministic) accuracy check; citation-rate and refusal-rate cost real "
     "OpenRouter calls, so they only run on a small sample when you click below."
@@ -62,5 +62,5 @@ if st.button(f"Run live eval (~{sample_size} draft calls + 5 redteam prompts)"):
 
     st.caption(
         "eval_judge (gpt-6-astra) cross-check is not shown here -- this account's OpenRouter "
-        "guardrail policy blocks that route (same limitation noted since devguard's Phase 0)."
+        "guardrail policy blocks that route (same limitation noted since deviation-review's Phase 0)."
     )

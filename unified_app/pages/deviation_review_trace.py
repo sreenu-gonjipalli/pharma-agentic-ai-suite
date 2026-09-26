@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deviation Review -- Observability & Traceability page. Reads devguard's existing
+"""Deviation Review -- Observability & Traceability page. Reads deviation-review's existing
 logs/traces/*.jsonl via src/trace.py's load_trace() -- no new logging/reading logic.
 """
 import glob
@@ -10,8 +10,8 @@ import streamlit as st
 
 PAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 UNIFIED_ROOT = os.path.dirname(PAGE_DIR)
-DEVGUARD_ROOT = os.path.normpath(os.path.join(UNIFIED_ROOT, "..", "devguard"))
-sys.path.insert(0, DEVGUARD_ROOT)
+DEVIATION_REVIEW_ROOT = os.path.normpath(os.path.join(UNIFIED_ROOT, "..", "deviation-review"))
+sys.path.insert(0, DEVIATION_REVIEW_ROOT)
 
 from src import trace as trace_log  # noqa: E402
 
@@ -21,7 +21,7 @@ st.caption(
     "prompt/response content (Rule 5). One logs/traces/<deviation_id>.jsonl file per run."
 )
 
-trace_dir = os.path.join(DEVGUARD_ROOT, "logs", "traces")
+trace_dir = os.path.join(DEVIATION_REVIEW_ROOT, "logs", "traces")
 ids = sorted(os.path.splitext(os.path.basename(p))[0] for p in glob.glob(os.path.join(trace_dir, "*.jsonl")))
 
 if not ids:
