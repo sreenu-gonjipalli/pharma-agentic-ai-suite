@@ -1,0 +1,17 @@
+# caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# secrets
+.env
+**/.env
+
+# generated case/log data (per-run output, not source)
+capstone/cases/*.json
+capstone/logs/*.jsonl
+devguard/logs/cases/*.json
+devguard/logs/approved/*.json
+devguard/logs/traces/*.jsonl

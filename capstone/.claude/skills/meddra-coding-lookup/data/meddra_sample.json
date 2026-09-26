@@ -1,0 +1,22 @@
+[
+  {"pt": "Nausea", "llt": ["Feeling sick", "Nauseated"], "soc": "Gastrointestinal disorders"},
+  {"pt": "Vomiting", "llt": ["Emesis", "Throwing up"], "soc": "Gastrointestinal disorders"},
+  {"pt": "Headache", "llt": ["Cephalalgia", "Head pain"], "soc": "Nervous system disorders"},
+  {"pt": "Dizziness", "llt": ["Lightheadedness", "Vertigo NOS"], "soc": "Nervous system disorders"},
+  {"pt": "Rash", "llt": ["Skin eruption", "Erythematous rash"], "soc": "Skin and subcutaneous tissue disorders"},
+  {"pt": "Pruritus", "llt": ["Itching", "Skin itching"], "soc": "Skin and subcutaneous tissue disorders"},
+  {"pt": "Anaphylactic reaction", "llt": ["Anaphylaxis", "Anaphylactic shock"], "soc": "Immune system disorders"},
+  {"pt": "Dyspnoea", "llt": ["Shortness of breath", "Breathlessness"], "soc": "Respiratory, thoracic and mediastinal disorders"},
+  {"pt": "Hepatotoxicity", "llt": ["Liver toxicity", "Drug-induced liver injury"], "soc": "Hepatobiliary disorders"},
+  {"pt": "Renal impairment", "llt": ["Kidney impairment", "Decreased renal function"], "soc": "Renal and urinary disorders"},
+  {"pt": "Tachycardia", "llt": ["Fast heart rate", "Increased heart rate"], "soc": "Cardiac disorders"},
+  {"pt": "Hypotension", "llt": ["Low blood pressure", "Blood pressure decreased"], "soc": "Vascular disorders"},
+  {"pt": "Fatigue", "llt": ["Tiredness", "Asthenia"], "soc": "General disorders and administration site conditions"},
+  {"pt": "Injection site reaction", "llt": ["Injection site pain", "Injection site swelling"], "soc": "General disorders and administration site conditions"},
+  {"pt": "Seizure", "llt": ["Convulsion", "Fit"], "soc": "Nervous system disorders"},
+  {"pt": "Thrombocytopenia", "llt": ["Low platelet count", "Platelet count decreased"], "soc": "Blood and lymphatic system disorders"},
+  {"pt": "Neutropenia", "llt": ["Low neutrophil count", "Neutrophil count decreased"], "soc": "Blood and lymphatic system disorders"},
+  {"pt": "Angioedema", "llt": ["Swelling of face/throat", "Facial swelling"], "soc": "Immune system disorders"},
+  {"pt": "Insomnia", "llt": ["Difficulty sleeping", "Sleeplessness"], "soc": "Psychiatric disorders"},
+  {"pt": "Diarrhoea", "llt": ["Loose stools", "Frequent bowel movements"], "soc": "Gastrointestinal disorders"}
+]

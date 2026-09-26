@@ -1,0 +1,18 @@
+# Clinical domain pack (CLAUDE.md Section 3). Same rules-engine shape as
+# packs/manufacturing/rules.yaml -- Classifier code is unchanged, only this data file is new
+# (Phase 9's "done when": same engine classifies a protocol deviation).
+domain: clinical
+approver_role: "CTM"
+classify_question: "Reportable?"
+severities: [Major, Minor]
+
+rules:
+  - id: visit_outside_window
+    if_all: [visit_window_breach]
+    severity: Major
+    reportable: true
+
+default:
+  id: no_deterministic_finding
+  severity: Minor
+  reportable: false

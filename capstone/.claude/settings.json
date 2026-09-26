@@ -1,0 +1,32 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PROJECT_DIR}/hooks/pretool_guard.py\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash|Write|mcp__pv-tools__case_update|mcp__pv-tools__case_init",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PROJECT_DIR}/hooks/posttool_guard.py\""
+          }
+        ]
+      }
+    ]
+  },
+  "mcpServers": {
+    "pv-tools": {
+      "command": "python3",
+      "args": ["${CLAUDE_PROJECT_DIR}/mcp/pv_tools_server.py"]
+    }
+  }
+}

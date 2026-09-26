@@ -1,0 +1,27 @@
+[
+  {
+    "case_note": "clear hospitalization case",
+    "raw_text": "Call center report: Patient is a 61 year old male taking Lisinopril 10mg daily for hypertension. On 2026-08-01 he developed severe shortness of breath and was admitted to the hospital for two nights. Reported by the patient's spouse on 2026-08-03.",
+    "expected_event_terms": ["Dyspnoea"],
+    "expected_overall_seriousness": "SERIOUS"
+  },
+  {
+    "case_note": "clear non-serious case, no hospitalization/death/disability language",
+    "raw_text": "Email report: A patient taking Ibuprofen 200mg reported mild headache after the second dose. No hospital visit, no other symptoms mentioned. Reported by the patient directly.",
+    "expected_event_terms": ["Headache"],
+    "expected_overall_seriousness": "NON-SERIOUS"
+  },
+  {
+    "case_note": "missing fields should stay NOT REPORTED, never inferred",
+    "raw_text": "Literature excerpt: a case of rash following drug administration.",
+    "expected_event_terms": ["Rash"],
+    "expected_overall_seriousness": "NON-SERIOUS"
+  },
+  {
+    "case_note": "near-duplicate of fixture 1, same patient/drug/event -- duplicate check should flag it",
+    "raw_text": "Call center report: Patient is a 61 year old male taking Lisinopril 10mg daily for hypertension. On 2026-08-01 he developed severe shortness of breath and was admitted to the hospital for two nights. Follow-up call on 2026-08-04 from the same household confirms the same details.",
+    "expected_event_terms": ["Dyspnoea"],
+    "expected_overall_seriousness": "SERIOUS",
+    "expected_duplicate_of_note": "clear hospitalization case"
+  }
+]

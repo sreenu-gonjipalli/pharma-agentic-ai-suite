@@ -1,0 +1,24 @@
+equipment_id,service_date,service_type,technician,next_due_date,schedule_months
+Oven-01,2023-01-25,Preventive maintenance,M. Chen,2024-01-20,12
+Oven-01,2024-01-15,Preventive maintenance,M. Chen,2025-01-09,12
+Oven-01,2025-01-12,Preventive maintenance,R. Osei,2026-01-07,12
+Oven-01,2026-01-07,Preventive maintenance (last on record),J. Alvarez,2027-01-02,12
+Oven-02,2023-01-13,Preventive maintenance,R. Osei,2024-01-08,12
+Oven-02,2024-01-01,Preventive maintenance,J. Alvarez,2024-12-26,12
+Oven-02,2024-12-27,Preventive maintenance,P. Fontaine,2025-12-22,12
+Oven-02,2025-12-23,Preventive maintenance (last on record),J. Alvarez,2026-12-18,12
+Oven-03,2023-04-03,Preventive maintenance,R. Osei,2024-03-28,12
+Oven-03,2024-04-04,Preventive maintenance,M. Chen,2025-03-30,12
+Oven-03,2025-03-29,Preventive maintenance,J. Alvarez,2026-03-24,12
+Oven-03,2026-04-03,Preventive maintenance (last on record),J. Alvarez,2027-03-29,12
+Oven-04,2023-06-03,Preventive maintenance,M. Chen,2024-05-28,12
+Oven-04,2024-06-05,Preventive maintenance,R. Osei,2025-05-31,12
+Oven-04,2025-06-01,Preventive maintenance (last on record),J. Alvarez,2026-05-27,12
+Oven-05,2023-02-28,Preventive maintenance,R. Osei,2024-02-23,12
+Oven-05,2024-02-16,Preventive maintenance,M. Chen,2025-02-10,12
+Oven-05,2025-02-12,Preventive maintenance,R. Osei,2026-02-07,12
+Oven-05,2026-02-05,Preventive maintenance (last on record),R. Osei,2027-01-31,12
+Oven-06,2023-02-22,Preventive maintenance,M. Chen,2024-02-17,12
+Oven-06,2024-02-15,Preventive maintenance,M. Chen,2025-02-09,12
+Oven-06,2025-02-19,Preventive maintenance,M. Chen,2026-02-14,12
+Oven-06,2026-02-06,Preventive maintenance (last on record),P. Fontaine,2027-02-01,12

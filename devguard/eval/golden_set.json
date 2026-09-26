@@ -1,0 +1,523 @@
+[
+  {
+    "deviation_id": "DEV-2026-0091",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": true,
+      "service_breach": true,
+      "lab_fail": true
+    },
+    "expected_matched_rule": "excursion_with_lab_fail",
+    "expected_severity": "Critical",
+    "expected_product_impact": true,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2291",
+      "DEV-2026-0091",
+      "Oven-04",
+      "SOP-Drying-001.pdf#2",
+      "SOP-Drying-001.pdf#4"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0034",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": true
+    },
+    "expected_matched_rule": "visit_outside_window",
+    "expected_severity": "Major",
+    "expected_product_impact": null,
+    "expected_reportable": true,
+    "evidence_record_ids": [
+      "DEV-2026-0034",
+      "Protocol-CT-2026-07.pdf#2",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1042"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0100",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2304",
+      "DEV-2026-0100",
+      "Oven-06",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0101",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": true,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "service_overdue_no_lab_fail",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2296",
+      "DEV-2026-0101",
+      "Oven-04",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0102",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2307",
+      "DEV-2026-0102",
+      "Oven-01",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#4"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0103",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2309",
+      "DEV-2026-0103",
+      "Oven-06",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0104",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2308",
+      "DEV-2026-0104",
+      "Oven-02",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0105",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2301",
+      "DEV-2026-0105",
+      "Oven-03",
+      "Protocol-CT-2026-07.pdf#3",
+      "SOP-Drying-001.pdf#0"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0106",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2312",
+      "DEV-2026-0106",
+      "Oven-02",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0107",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2302",
+      "DEV-2026-0107",
+      "Oven-02",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0108",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2311",
+      "DEV-2026-0108",
+      "Oven-06",
+      "Protocol-CT-2026-07.pdf#3",
+      "SOP-Drying-001.pdf#0"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0109",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2313",
+      "DEV-2026-0109",
+      "Oven-06",
+      "Protocol-CT-2026-07.pdf#3",
+      "SOP-Drying-001.pdf#0"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0110",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2306",
+      "DEV-2026-0110",
+      "Oven-01",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#4"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0111",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": true,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "service_overdue_no_lab_fail",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2293",
+      "DEV-2026-0111",
+      "Oven-04",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0112",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2300",
+      "DEV-2026-0112",
+      "Oven-01",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#4"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0113",
+    "expected_domain": "manufacturing",
+    "expected_flags": {
+      "excursion_above_spec": false,
+      "service_breach": false,
+      "lab_fail": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": false,
+    "expected_reportable": null,
+    "evidence_record_ids": [
+      "B-2310",
+      "DEV-2026-0113",
+      "Oven-06",
+      "SOP-Drying-001.pdf#1",
+      "SOP-Drying-001.pdf#3"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0200",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0200",
+      "S-1001",
+      "SOP-Drying-001.pdf#0",
+      "SOP-Drying-001.pdf#1"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0201",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0201",
+      "Protocol-CT-2026-07.pdf#2",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1002"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0202",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0202",
+      "Protocol-CT-2026-07.pdf#0",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1003"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0203",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0203",
+      "Protocol-CT-2026-07.pdf#2",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1004"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0204",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0204",
+      "Protocol-CT-2026-07.pdf#0",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1005"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0205",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0205",
+      "S-1006",
+      "SOP-Drying-001.pdf#0",
+      "SOP-Drying-001.pdf#1"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0206",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0206",
+      "S-1007",
+      "SOP-Drying-001.pdf#0",
+      "SOP-Drying-001.pdf#1"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0207",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0207",
+      "Protocol-CT-2026-07.pdf#2",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1008"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0208",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0208",
+      "Protocol-CT-2026-07.pdf#2",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1009"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0209",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0209",
+      "Protocol-CT-2026-07.pdf#0",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1010"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0210",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0210",
+      "Protocol-CT-2026-07.pdf#0",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1011"
+    ]
+  },
+  {
+    "deviation_id": "DEV-2026-0211",
+    "expected_domain": "clinical",
+    "expected_flags": {
+      "visit_window_breach": false
+    },
+    "expected_matched_rule": "no_deterministic_finding",
+    "expected_severity": "Minor",
+    "expected_product_impact": null,
+    "expected_reportable": false,
+    "evidence_record_ids": [
+      "DEV-2026-0211",
+      "Protocol-CT-2026-07.pdf#2",
+      "Protocol-CT-2026-07.pdf#3",
+      "S-1012"
+    ]
+  }
+]

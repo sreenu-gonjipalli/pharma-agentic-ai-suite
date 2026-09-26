@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "documents": {
+      "command": "python3",
+      "args": ["${CLAUDE_PROJECT_DIR}/mcp_servers/doc_server.py"]
+    },
+    "plantdata": {
+      "command": "python3",
+      "args": ["${CLAUDE_PROJECT_DIR}/mcp_servers/plantdata_server.py"]
+    },
+    "equipment": {
+      "command": "python3",
+      "args": ["${CLAUDE_PROJECT_DIR}/mcp_servers/equipment_server.py"]
+    },
+    "deviations": {
+      "command": "python3",
+      "args": ["${CLAUDE_PROJECT_DIR}/mcp_servers/deviation_server.py"]
+    }
+  }
+}

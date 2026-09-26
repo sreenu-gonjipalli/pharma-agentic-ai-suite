@@ -1,0 +1,103 @@
+batch_id,test_name,result_value,unit,spec_low,spec_high,pass_fail,test_date
+B-2291,Assay,99.63,%,95.0,105.0,pass,2026-08-03
+B-2291,Moisture content,0.8,%,0.0,0.5,fail,2026-08-03
+B-2291,Dissolution (Q30min),89.22,%,80.0,100.0,pass,2026-08-03
+B-2291,Appearance,pass,pass/fail,,,pass,2026-08-03
+B-2291,"Related substances, total",0.42,%,0.0,1.0,pass,2026-08-03
+B-2291,Hardness,10.46,kP,8.0,15.0,pass,2026-08-03
+B-2293,Assay,99.68,%,95.0,105.0,pass,2026-06-22
+B-2293,Moisture content,0.34,%,0.0,0.5,pass,2026-06-22
+B-2293,Dissolution (Q30min),91.42,%,80.0,100.0,pass,2026-06-22
+B-2293,Appearance,pass,pass/fail,,,pass,2026-06-22
+B-2293,"Related substances, total",0.66,%,0.0,1.0,pass,2026-06-22
+B-2293,Hardness,11.82,kP,8.0,15.0,pass,2026-06-22
+B-2296,Assay,99.2,%,95.0,105.0,pass,2026-07-17
+B-2296,Moisture content,0.26,%,0.0,0.5,pass,2026-07-17
+B-2296,Dissolution (Q30min),86.0,%,80.0,100.0,pass,2026-07-17
+B-2296,Appearance,pass,pass/fail,,,pass,2026-07-17
+B-2296,"Related substances, total",0.41,%,0.0,1.0,pass,2026-07-17
+B-2296,Hardness,11.3,kP,8.0,15.0,pass,2026-07-17
+B-2300,Assay,100.32,%,95.0,105.0,pass,2026-01-07
+B-2300,Moisture content,0.28,%,0.0,0.5,pass,2026-01-07
+B-2300,Dissolution (Q30min),89.72,%,80.0,100.0,pass,2026-01-07
+B-2300,Appearance,pass,pass/fail,,,pass,2026-01-07
+B-2300,"Related substances, total",0.48,%,0.0,1.0,pass,2026-01-07
+B-2300,Hardness,10.7,kP,8.0,15.0,pass,2026-01-07
+B-2301,Assay,99.89,%,95.0,105.0,pass,2026-01-13
+B-2301,Moisture content,0.33,%,0.0,0.5,pass,2026-01-13
+B-2301,Dissolution (Q30min),92.37,%,80.0,100.0,pass,2026-01-13
+B-2301,Appearance,pass,pass/fail,,,pass,2026-01-13
+B-2301,"Related substances, total",0.37,%,0.0,1.0,pass,2026-01-13
+B-2301,Hardness,10.34,kP,8.0,15.0,pass,2026-01-13
+B-2302,Assay,100.06,%,95.0,105.0,pass,2026-01-20
+B-2302,Moisture content,0.28,%,0.0,0.5,pass,2026-01-20
+B-2302,Dissolution (Q30min),88.68,%,80.0,100.0,pass,2026-01-20
+B-2302,Appearance,pass,pass/fail,,,pass,2026-01-20
+B-2302,"Related substances, total",0.63,%,0.0,1.0,pass,2026-01-20
+B-2302,Hardness,12.2,kP,8.0,15.0,pass,2026-01-20
+B-2303,Assay,100.69,%,95.0,105.0,pass,2026-01-27
+B-2303,Moisture content,0.19,%,0.0,0.5,pass,2026-01-27
+B-2303,Dissolution (Q30min),87.59,%,80.0,100.0,pass,2026-01-27
+B-2303,Appearance,pass,pass/fail,,,pass,2026-01-27
+B-2303,"Related substances, total",0.31,%,0.0,1.0,pass,2026-01-27
+B-2303,Hardness,10.79,kP,8.0,15.0,pass,2026-01-27
+B-2304,Assay,99.9,%,95.0,105.0,pass,2026-02-07
+B-2304,Moisture content,0.32,%,0.0,0.5,pass,2026-02-07
+B-2304,Dissolution (Q30min),86.58,%,80.0,100.0,pass,2026-02-07
+B-2304,Appearance,pass,pass/fail,,,pass,2026-02-07
+B-2304,"Related substances, total",0.47,%,0.0,1.0,pass,2026-02-07
+B-2304,Hardness,11.86,kP,8.0,15.0,pass,2026-02-07
+B-2305,Assay,98.78,%,95.0,105.0,pass,2026-02-13
+B-2305,Moisture content,0.29,%,0.0,0.5,pass,2026-02-13
+B-2305,Dissolution (Q30min),89.96,%,80.0,100.0,pass,2026-02-13
+B-2305,Appearance,pass,pass/fail,,,pass,2026-02-13
+B-2305,"Related substances, total",0.4,%,0.0,1.0,pass,2026-02-13
+B-2305,Hardness,11.94,kP,8.0,15.0,pass,2026-02-13
+B-2306,Assay,98.02,%,95.0,105.0,pass,2026-02-22
+B-2306,Moisture content,0.3,%,0.0,0.5,pass,2026-02-22
+B-2306,Dissolution (Q30min),92.16,%,80.0,100.0,pass,2026-02-22
+B-2306,Appearance,pass,pass/fail,,,pass,2026-02-22
+B-2306,"Related substances, total",0.34,%,0.0,1.0,pass,2026-02-22
+B-2306,Hardness,11.29,kP,8.0,15.0,pass,2026-02-22
+B-2307,Assay,98.7,%,95.0,105.0,pass,2026-02-28
+B-2307,Moisture content,0.34,%,0.0,0.5,pass,2026-02-28
+B-2307,Dissolution (Q30min),90.14,%,80.0,100.0,pass,2026-02-28
+B-2307,Appearance,pass,pass/fail,,,pass,2026-02-28
+B-2307,"Related substances, total",0.32,%,0.0,1.0,pass,2026-02-28
+B-2307,Hardness,10.8,kP,8.0,15.0,pass,2026-02-28
+B-2308,Assay,101.39,%,95.0,105.0,pass,2026-03-07
+B-2308,Moisture content,0.24,%,0.0,0.5,pass,2026-03-07
+B-2308,Dissolution (Q30min),92.41,%,80.0,100.0,pass,2026-03-07
+B-2308,Appearance,pass,pass/fail,,,pass,2026-03-07
+B-2308,"Related substances, total",0.57,%,0.0,1.0,pass,2026-03-07
+B-2308,Hardness,12.87,kP,8.0,15.0,pass,2026-03-07
+B-2309,Assay,100.38,%,95.0,105.0,pass,2026-03-17
+B-2309,Moisture content,0.34,%,0.0,0.5,pass,2026-03-17
+B-2309,Dissolution (Q30min),93.13,%,80.0,100.0,pass,2026-03-17
+B-2309,Appearance,pass,pass/fail,,,pass,2026-03-17
+B-2309,"Related substances, total",0.55,%,0.0,1.0,pass,2026-03-17
+B-2309,Hardness,12.11,kP,8.0,15.0,pass,2026-03-17
+B-2310,Assay,100.02,%,95.0,105.0,pass,2026-03-23
+B-2310,Moisture content,0.32,%,0.0,0.5,pass,2026-03-23
+B-2310,Dissolution (Q30min),90.38,%,80.0,100.0,pass,2026-03-23
+B-2310,Appearance,pass,pass/fail,,,pass,2026-03-23
+B-2310,"Related substances, total",0.66,%,0.0,1.0,pass,2026-03-23
+B-2310,Hardness,12.18,kP,8.0,15.0,pass,2026-03-23
+B-2311,Assay,99.9,%,95.0,105.0,pass,2026-03-30
+B-2311,Moisture content,0.2,%,0.0,0.5,pass,2026-03-30
+B-2311,Dissolution (Q30min),87.98,%,80.0,100.0,pass,2026-03-30
+B-2311,Appearance,pass,pass/fail,,,pass,2026-03-30
+B-2311,"Related substances, total",0.56,%,0.0,1.0,pass,2026-03-30
+B-2311,Hardness,12.24,kP,8.0,15.0,pass,2026-03-30
+B-2312,Assay,100.09,%,95.0,105.0,pass,2026-04-08
+B-2312,Moisture content,0.28,%,0.0,0.5,pass,2026-04-08
+B-2312,Dissolution (Q30min),88.2,%,80.0,100.0,pass,2026-04-08
+B-2312,Appearance,pass,pass/fail,,,pass,2026-04-08
+B-2312,"Related substances, total",0.33,%,0.0,1.0,pass,2026-04-08
+B-2312,Hardness,10.9,kP,8.0,15.0,pass,2026-04-08
+B-2313,Assay,99.09,%,95.0,105.0,pass,2026-04-17
+B-2313,Moisture content,0.21,%,0.0,0.5,pass,2026-04-17
+B-2313,Dissolution (Q30min),90.32,%,80.0,100.0,pass,2026-04-17
+B-2313,Appearance,pass,pass/fail,,,pass,2026-04-17
+B-2313,"Related substances, total",0.36,%,0.0,1.0,pass,2026-04-17
+B-2313,Hardness,10.75,kP,8.0,15.0,pass,2026-04-17

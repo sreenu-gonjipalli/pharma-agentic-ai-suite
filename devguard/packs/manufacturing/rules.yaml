@@ -1,0 +1,31 @@
+# Manufacturing domain pack (CLAUDE.md Section 3). Classifier reads this; engine code never
+# changes when a pack changes (Phase 9 adds packs/clinical/ the same shape, no agent edits).
+domain: manufacturing
+approver_role: "QA Head"
+classify_question: "Product impact?"
+severities: [Critical, Major, Minor]
+
+# First rule whose `if_all` flags are all true wins. `flags` are booleans DataCheck computed
+# from deterministic checks -- never invented by the Classifier or an LLM.
+rules:
+  - id: excursion_with_lab_fail
+    if_all: [excursion_above_spec, lab_fail]
+    severity: Critical
+    product_impact: true
+  - id: service_overdue_with_lab_fail
+    if_all: [service_breach, lab_fail]
+    severity: Critical
+    product_impact: true
+  - id: excursion_no_lab_fail
+    if_all: [excursion_above_spec]
+    severity: Major
+    product_impact: false
+  - id: service_overdue_no_lab_fail
+    if_all: [service_breach]
+    severity: Minor
+    product_impact: false
+
+default:
+  id: no_deterministic_finding
+  severity: Minor
+  product_impact: false
